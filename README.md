@@ -25,3 +25,5 @@
      ]
    }
 ```
+
+Place both files in same directory as index.js
