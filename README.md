@@ -7,23 +7,3 @@
      "token": "<insert discord bot token here>"
    }
  ```
- 
- Create data.json:
- ```
-   {
-     "beforeandafters": [
-       {
-         "plot": "<plot or question>",
-         "answer": "<answer>",
-         "episode": "episode this appeared on"
-       },
-       {
-         "plot": "<plot or question>",
-         "answer": "<answer>",
-         "episode": "episode this appeared on"
-       }
-     ]
-   }
-```
-
-Place both files in same directory as index.js
