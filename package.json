@@ -1,0 +1,13 @@
+{
+  "name": "TooManyIdeasBot",
+  "version": "0.1",
+  "main": "index.js",
+  "author": "Daniel Domengeaux",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
