@@ -1,13 +1,15 @@
 # TooManyIdeasBot
  
  Create config.json:
+ ```
    {
      "prefix": "!",
      "token": "<insert discord bot token here>"
    }
- 
+ ```
  
  Create data.json:
+ ```
    {
      "beforeandafters": [
        {
@@ -22,3 +24,4 @@
        }
      ]
    }
+```
