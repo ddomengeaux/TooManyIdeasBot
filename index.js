@@ -142,7 +142,7 @@ client.on('message', async (message) => {
           if (Object.keys(current).length === 0) {
            current = GameData.beforeandafters[Math.floor(Math.random() * GameData.beforeandafters.length)];
            console.log(current);
-           message.channel.send('Starting Round.');
+           message.channel.send('Okay. Starting Round.');
           } else {
             message.channel.send('Game in progress.');
           }
