@@ -162,8 +162,16 @@ client.on('message', async (message) => {
         if (args.length === 0) return;
        
         var correct = false;
-       
-        if (args.join(' ').toLowerCase() === current.answer.toLowerCase()) {
+      
+      var a = args.join(' ').replace(/[^a-z0-9]+/gi, '').toLowerCase();
+      var b = current.answer.replace(/[^a-z0-9]+/gi, '').toLowerCase();
+      
+      //console.log(a);
+      //console.log(b);
+      
+        //  if (args.join(' ').toLowerCase() === current.answer.toLowerCase()) {
+        //  if (args.join(' ').replace(/[^\d.-]/g, '').toLowerCase() == current.answer.replace(/[^\d.-]/g, '').toLowerCase())) {
+          if (a === b) {
           correct = true;
         }
         
